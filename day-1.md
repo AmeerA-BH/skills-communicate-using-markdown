@@ -2,6 +2,12 @@
 
 ## Morning Planning
 
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
 ## Review
 
 
@@ -24,3 +30,14 @@ Column A|Column B
 
 Checkout the [GitHub Blog](https://github.blog/) for topic ideas.
 
+```bash
+git clone https://github.com/skills/communicate-using-markdown
+```
+
+```js
+var myvar = "Hello, world!"
+```
+
+```sql
+SELECT LEFT([Assignment Number]. 8) AS [Employee Number] FROM [Table] WHERE [Status] = 'Active'
+```
